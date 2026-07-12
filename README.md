@@ -1,6 +1,9 @@
 # Stochastic Modeling in Finance
-The repository is divided into two independent projects:
-The projects demonstrate practical applications of stochastic processes in derivatives pricing, interest rate modeling, and quantitative investment strategies.
+
+The projects span two major areas of quantitative finance:
+
+- **Computational Derivatives & Stochastic Volatility**
+- **Quantitative Portfolio Management & Regime-Switching Models**
 
 ## Project 1 – Advanced Option Pricing & Interest Rate Modeling
 
