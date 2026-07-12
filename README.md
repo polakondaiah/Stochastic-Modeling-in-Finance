@@ -7,6 +7,8 @@ The projects span two major areas of quantitative finance:
 
 Both projects emphasize mathematical modeling, numerical methods, statistical inference, Monte Carlo simulation, and practical financial decision-making.
 
+---
+
 ## Project 1 – Advanced Option Pricing & Interest Rate Modeling
 
 Developed a complete stochastic pricing framework for vanilla and exotic derivatives by calibrating stochastic volatility models to market option prices, pricing contracts under risk-neutral dynamics and modeling interest rates.
@@ -39,19 +41,9 @@ Developed a complete stochastic pricing framework for vanilla and exotic derivat
 - Model validation
 - Sensitivity analysis
 
-**Skills Demonstrated**
-- Stochastic Differential Equations
-- Fourier Methods
-- Characteristic Functions
-- Calibration Techniques
-- Numerical Integration
-- Monte Carlo Methods
-- Financial Engineering
-
-
 ---
 
-### Project 2 – Regime-Based Portfolio Allocation using Hidden Markov Models
+## Project 2 – Regime-Based Portfolio Allocation using Hidden Markov Models
 
 Designed and evaluated a dynamic asset allocation strategy that identifies hidden market regimes from VIX behavior and rotates capital across multiple ETFs.
 
@@ -83,19 +75,11 @@ Designed and evaluated a dynamic asset allocation strategy that identifies hidde
 - Benchmark Comparison
 - Sensitivity Analysis
 
-**Skills Demonstrated**
-- Time Series Analysis
-- Hidden Markov Models
-- Statistical Learning
-- Portfolio Construction
-- Backtesting
-- Quantitative Trading
-- Risk Management
+---
 
+## Comparison
 
-
-### Comparison
-   | Feature      | Project 1                                 | Project 2                                       |
+| Feature      | Project 1                                 | Project 2                                       |
 | ------------ | ----------------------------------------- | ----------------------------------------------- |
 | Domain       | Derivative Pricing                        | Quantitative Portfolio Management               |
 | Main Topic   | Stochastic Volatility Models              | Regime Switching Models                         |
@@ -107,6 +91,7 @@ Designed and evaluated a dynamic asset allocation strategy that identifies hidde
 | Output       | Option Prices                             | Trading Strategy                                |
 | Finance Area | Quantitative Derivatives                  | Quantitative Asset Management                   |
 
+---
 
 ## Highlights
 
@@ -116,6 +101,10 @@ Designed and evaluated a dynamic asset allocation strategy that identifies hidde
 | Implemented Lewis and Carr-Madan Fourier pricing approaches | Designed a regime-based ETF rotation strategy |
 | Priced Asian and European options using Monte Carlo simulation | Evaluated strategy performance using industry-standard risk metrics |
 | Built and calibrated a CIR interest-rate model for Euribor term structures | Performed model validation and sensitivity analysis |
+
+---
+
+## Repository Structure
 
 ```bash
 .
@@ -127,11 +116,12 @@ Designed and evaluated a dynamic asset allocation strategy that identifies hidde
 │   └── Report_A_Regime_Switching_Approach_to_Tactical_Asset_Allocation_Using_VIX_and_HMM
 └── requirements.txt
 ```
+
 ## Technologies, Topics & Skills
 
 | Technologies | Quantitative Finance Topics | Skills Demonstrated |
 | :--- | :--- | :--- |
-| Python, NumPy, Pandas, SciPy | Stochastic Processes, Option Pricing, Derivative Valuation | Quantitative Modeling, Financial Mathematics |
-| Matplotlib, Plotly, yfinance | Fourier Transform Methods, Monte Carlo Simulation, Jump-Diffusion Models, Interest Rate Modeling | Stochastic Calculus Applications, Numerical Methods, Model Calibration |
-| hmmlearn, scikit-learn | Hidden Markov Models, Markov Chains, Regime Switching Models | Statistical Learning, Time Series Analysis |
-| Jupyter Notebook | Portfolio Optimization, Quantitative Trading, Financial Engineering | Risk Analysis, Algorithmic Portfolio Design, Python for Quantitative Finance |
+| Python, NumPy, Pandas, SciPy | Stochastic Processes, Option Pricing, Derivative Valuation | Quantitative Modeling, Financial Mathematics, Stochastic Calculus (SDEs) |
+| Matplotlib, Plotly, yfinance | Fourier Transform Methods, Monte Carlo Simulation, Jump-Diffusion Models, Interest Rate Modeling | Fourier Methods, Numerical Integration, Monte Carlo Methods, Model Calibration |
+| hmmlearn, scikit-learn | Hidden Markov Models, Markov Chains, Regime Switching Models | Statistical Learning, Time Series Analysis, HMMs, Markov Chains |
+| Jupyter Notebook | Portfolio Optimization, Quantitative Trading, Financial Engineering | Portfolio Construction, Backtesting, Risk Analysis, Algorithmic Portfolio Design, Financial Engineering, Quantitative Trading |
