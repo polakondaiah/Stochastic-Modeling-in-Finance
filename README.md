@@ -37,6 +37,19 @@ Designed and evaluated a volatility-driven asset allocation strategy using proba
 - Maximum Drawdown
 - Regime-Based Investment Strategy
 
+### Comparison
+   | Feature      | Project 1                                 | Project 2                                       |
+| ------------ | ----------------------------------------- | ----------------------------------------------- |
+| Domain       | Derivative Pricing                        | Quantitative Portfolio Management               |
+| Main Topic   | Stochastic Volatility Models              | Regime Switching Models                         |
+| Objective    | Price options accurately                  | Allocate assets based on market regimes         |
+| Market       | Options                                   | ETFs & Portfolio                                |
+| Data         | Option chain + Interest rates             | Yahoo Finance ETF & VIX                         |
+| Models       | Heston, Bates, CIR                        | Markov Chain, Hidden Markov Model               |
+| Techniques   | Calibration, Fourier Pricing, Monte Carlo | State Estimation, Regime Detection, Backtesting |
+| Output       | Option Prices                             | Trading Strategy                                |
+| Finance Area | Quantitative Derivatives                  | Quantitative Asset Management                   |
+
 ```bash
 .
 ├── Project_1_Option_Pricing_Using_Heston_Bates_CIR_Models
